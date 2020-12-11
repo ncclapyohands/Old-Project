@@ -132,19 +132,21 @@ body footer nav ul li {
 }
 /*------------About Intro---------------------*/
 #about{
-  padding-top: 20px;
+  padding-top: 65px;
   padding-bottom: 20px;
   color: #555;
 }
+
 #about btn{
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .about-content{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 15px;
 }
+
 .skills-bar p{
   margin-bottom: 6px;
   font-weight: 700;
@@ -163,7 +165,7 @@ body footer nav ul li {
   background-position: center;
   color: #efefef !important;
   background-attachment: fixed;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 #services{
@@ -203,7 +205,7 @@ body footer nav ul li {
 }
 /********************Team Members************************/
 #team{
-  padding-top: 50px;
+  padding-top: 65px;
   padding-bottom: 50px;
   color: #555;
 }

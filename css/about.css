@@ -2,15 +2,22 @@
 html{
   height: 100%;
 }
+main{
+  flex: 1;
+}
 
 body, main{
   padding: 0;
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 body{
   background-color: #ccc;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 main{
   border: 2px solid black;
@@ -18,9 +25,10 @@ main{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  
+  flex: 1;
 }
 #content{
+  margin: 0 auto;
   width: 75%;
   border: 2px solid cyan;
   background-color: aqua;
@@ -29,7 +37,7 @@ main{
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-  
+  flex: 1;
 }
 #content img{
   width: 50%;
@@ -38,6 +46,11 @@ main{
 }
 #content h1{
   text-align: center;
+  width: 100%;
+}
+#content p{
+  text-align: center;
+  width: 100%;
 }
 /******Nav Bar******/
   #nav-bar{
