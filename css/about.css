@@ -31,7 +31,7 @@ main{
   margin: 0 auto;
   width: 75%;
   border: 2px solid cyan;
-  background-color: aqua;
+  background-image: url(banff.jpg);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
