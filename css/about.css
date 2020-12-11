@@ -20,7 +20,7 @@ body{
   flex-direction: column;
 }
 main{
-  border: 2px solid black;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -30,7 +30,7 @@ main{
 #content{
   margin: 0 auto;
   width: 75%;
-  border: 2px solid cyan;
+  border: 2px solid #ccc;
   background-image: url(banff.jpg);
   display: flex;
   flex-direction: column;
@@ -51,6 +51,7 @@ main{
 #content p{
   text-align: center;
   width: 100%;
+  color: white;
 }
 /******Nav Bar******/
   #nav-bar{

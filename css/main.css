@@ -170,7 +170,7 @@ body footer nav ul li {
 }
 #services{
   text-align: center;
-  color: #efefef;
+  color: white;
   padding-bottom: 10px;
 }
 #services h1::after{
@@ -196,7 +196,7 @@ body footer nav ul li {
 #services p{
   font-size: 14px;
   margin-top: 20px;
-  color: #ccc;
+  color: gray;
 }
 .services .col-md-3:hover{
   background: #555;
@@ -209,7 +209,7 @@ body footer nav ul li {
   padding-bottom: 50px;
   color: #555;
 }
-h1{
+#team h1{
     text-align: center;
     color: #555 !important;
     padding-bottom: 10px;
@@ -283,6 +283,11 @@ h1::after{
 #price{
   padding: 65px 0;
   background: #efefef;
+}
+#price h1{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
 }
 .single-price{
   margin: 10px auto;
